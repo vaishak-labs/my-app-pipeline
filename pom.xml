@@ -17,6 +17,12 @@
     </properties>
 
     <dependencies>
+        <!-- Spring Boot Web Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.2.5</version>
+        </dependency>
         <!-- JUnit for testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -28,6 +34,13 @@
 
     <build>
         <plugins>
+
+            <!-- Spring Boot Plugin -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.5</version>
+            </plugin>
 
             <!-- Compiler Plugin -->
             <plugin>
