@@ -1,2 +1,8 @@
 Updated by Jenkins 
 Updated by Jenkins 
+
+git pull origin main --rebase
+echo demo >> demo.txt
+git add .
+git commit -m "trigger"
+git push
